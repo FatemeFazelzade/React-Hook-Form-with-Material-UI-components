@@ -1,0 +1,21 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(./IRRoya.ttf);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: myFirstFont;
+}
+
+.insurance {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0;
+}
+.insurance li {
+  margin: 1rem;
+  width: 9rem;
+}
