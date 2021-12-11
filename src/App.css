@@ -13,9 +13,17 @@ form {
   list-style: none;
   display: flex;
   justify-content: center;
+  text-align: center;
   padding-inline-start: 0;
 }
 .insurance li {
   margin: 1rem;
   width: 9rem;
+}
+
+.cls-1 {
+  fill: #bddbff;
+}
+.cls-2 {
+  fill: #3d9ae2;
 }
