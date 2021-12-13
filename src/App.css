@@ -2,6 +2,13 @@
   font-family: myFirstFont;
   src: url(./IRRoya.ttf);
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: myFirstFont;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -20,10 +27,6 @@ form {
   margin: 1rem;
   width: 9rem;
 }
-
-.cls-1 {
-  fill: #bddbff;
-}
-.cls-2 {
-  fill: #3d9ae2;
+.button {
+  margin-top: 2rem;
 }
